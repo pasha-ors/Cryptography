@@ -18,5 +18,12 @@ int main(){
     printf("7. %d\n", is_letter(b));
     printf("8. %d\n", is_letter(c));
 
+    printf("Upper: %c\n", to_upper('a'));
+    printf("Lower: %c\n", to_lower('A'));
+
+    printf("Length: %d\n", string_length("Hello"));
+    print_string("Hello");
+
+
     return 0;
 }
