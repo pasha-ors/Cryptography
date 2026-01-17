@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "utils.h"
+#include "caesar.h"
 
 int main(){
 
@@ -18,12 +19,13 @@ int main(){
     printf("7. %d\n", is_letter(b));
     printf("8. %d\n", is_letter(c));
 
-    printf("Upper: %c\n", to_upper('a'));
+    printf("Upper: %c\n", to_upper('a'));                                                                                                               
     printf("Lower: %c\n", to_lower('A'));
-
     printf("Length: %d\n", string_length("Hello"));
     print_string("Hello");
 
+    printf("Shift 3 A: %c\n", caesar_encrypt('A', 3));
+    printf("Shift 3 D: %c\n", caesar_decrypt('D', 3));
 
     return 0;
 }
