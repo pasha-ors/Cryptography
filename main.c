@@ -24,8 +24,10 @@ int main(){
     printf("Length: %d\n", string_length("Hello"));
     print_string("Hello");
 
-    printf("Shift 3 A: %c\n", caesar_encrypt('A', 3));
-    printf("Shift 3 D: %c\n", caesar_decrypt('D', 3));
+    printf("Shift 3 A: %c\n", caesar_encrypt('B', 3));
+    printf("Shift 3 D: %c\n", caesar_decrypt('E', 3));
+
+
 
     return 0;
 }
